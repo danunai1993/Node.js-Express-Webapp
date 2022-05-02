@@ -1,11 +1,14 @@
-<head>
 
-</head>
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
 <body>
-    <h1>hello world</h1>
-    <%
-    products.map((product) => { %>
-        <li><%=product.Title%></li>
-        <p><%=product.Description%></p>
-    <% }) %>
+  <h1>Products</h1>
+    <% products.map((product) => { %>
+        <a href="/products/<%=product.id%>"><%= product.Title%></a>
+       <% }) %>
 </body>
+
+</html>

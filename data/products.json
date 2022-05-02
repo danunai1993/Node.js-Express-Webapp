@@ -1,20 +1,22 @@
-{
-    "products": [
-      {
+[
+    {
+        "id": 0,
         "Title": "TEST 1",
         "Description": "สำหรับศึกษา 1"
-      },
-      {
+    },
+    {
+        "id": 1,
         "Title": "TEST 2",
         "Description": "สำหรับศึกษา 2"
-      },
-      {
+    },
+    {
+        "id": 2,
         "Title": "TEST 3",
         "Description": "สำหรับศึกษา 3"
-      },
-      {
+    },
+    {
+        "id": 3,
         "Title": "TEST 4",
         "Description": "สำหรับศึกษา 4"
-      }
-    ]
-  }
+    }
+]
